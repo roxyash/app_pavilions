@@ -1,0 +1,28 @@
+﻿<Window x:Class="PavileniDB.Roles.Manager_C"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PavileniDB.Roles"
+        mc:Ignorable="d"
+        Title="Manager_C" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="451" Margin="0,0,-1,-1.4" VerticalAlignment="Top" Width="801" Source="/PavileniDB;component/Resource/main.jpg" Stretch="Fill"/>
+        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="15,416,0,0" VerticalAlignment="Top" Width="81" Height="20" Click="BackButton">
+            <Image Source="/PavileniDB;component/Resource/back.png" ></Image>
+        </Button>
+        <Label Content="" Background="DarkSlateGray" HorizontalAlignment="Left" VerticalAlignment="Top" Width="801" Height="20" Margin="0,0,-1,0"/>
+        <Image Source="/PavileniDB;component/Resource/Эмблема.png" HorizontalAlignment="Left" Height="18" Margin="6,2,0,0" VerticalAlignment="Top" Width="19"/>
+        <Button Background="Transparent" BorderBrush="Transparent"  HorizontalAlignment="Left" Margin="778,1,0,0" VerticalAlignment="Top" Width="18" Height="17" Click="ExitProgramm">
+            <Image Source="/PavileniDB;component/Resource/krestv2.png" ></Image>
+        </Button>
+        <Button Background="Transparent" BorderBrush="Transparent"  HorizontalAlignment="Left" Margin="759,1,0,0" VerticalAlignment="Top" Width="19" Height="18" Click="SverProgramm">
+            <Image Source="/PavileniDB;component/Resource/sver.png"/>
+        </Button>
+        <Button Background="Transparent" FontSize="18" BorderBrush="Black" Content="Список ТЦ" HorizontalAlignment="Left" Margin="11,30,0,0" VerticalAlignment="Top" Width="149" Height="38" Click="ShoppingMall"/>
+        <Label x:Name="Role" Content="" FontSize="10" HorizontalAlignment="Left" Margin="24,-2,0,0" VerticalAlignment="Top" Height="24" Width="87"/>
+        <Label x:Name="Name" Content="" FontSize="10" HorizontalAlignment="Left" Margin="88,-2,0,0" VerticalAlignment="Top" Height="25" Width="88"/>
+        <Button Background="Transparent" FontSize="18" BorderBrush="Black" Content="Other" HorizontalAlignment="Left" Margin="11,76,0,0" VerticalAlignment="Top" Width="149" Height="38"/>
+
+    </Grid>
+</Window>
